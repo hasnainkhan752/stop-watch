@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+        box-sizing: border-box;
+    background-color: rgb(189, 189, 209);
+    color: rgb(234, 234, 236);
+}
+
+.heading{
+
+    text-align: center;
+    padding: 30px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornflowerblue;
+}
+
+.waper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Watch{
+
+    display: flex;
+    gap: 50px;
+margin-bottom: 50px;
+}
+
+
+.Watch div{
+    border: 2px solid rgb(13, 13, 16);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+    width: 150px;
+    height: 160px;
+    color: black;
+    border-radius: 70px;
+}
+
+.Watch h1{
+    color: black;
+}
+.Watch h2   {
+    color: black;
+}
+/* button style start */
+
+/* .btn{
+    border: 1px solid black; 
+    padding: 10px;
+  
+} */
+
+.start{
+
+    border: 1px solid rgb(0, 9, 128);
+    border-radius: 15px;
+    outline: none;
+    width: 60px;
+    height: 40px;
+ color: rgb(30, 26, 26);
+    background-color:rgb(155, 142, 142);
+    margin-top: 25px;
+    margin-left: 35px;
+margin-right: 10px;
+}
+
+.start a{
+    text-decoration: none;
+   color: black;
+    
+
+}
+
+.start:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color:rgb(216, 235, 216);
+    transition: 0.1s ease;
+
+}
+
+
+
